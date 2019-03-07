@@ -1,38 +1,212 @@
-/* ===== main menu ======== */
-
-
-
-
-#body{
-    font: 15px/1.5 Arial, Helvetica,sans-serif;
-    padding:0;
-    Margin:0;
-    Background-color:#f4f4f4;
+html{
+    background:url('../image/bookshelves.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz- background-size:cover;
+    -o-background-size:cover; 
 }
+
+
+body{
+    font: 25px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;   
+}
+
 .container{
-    width: 70%
+    width:55%;
     margin:auto;
     overflow:hidden;
 }
-
+    
 ul{
-    margin:0;
-    padding:0;
+    margin:10px;
+    padding:0px;
 }
 
 .tekst{
-    padding:15px;
-    background:#d3d3d3;
-    color:#000000
+    padding:5px;
+    background:#ffffff;
+    color:#000000;
     margin-top:10px;
     margin-bottom:10px;
-        font-family:11xb;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 300;
-        line-height:28px;
-        padding-bottom: 10px;
-        padding-top: 5px;
-        text-align: left;
-        text-transform: none;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: left;
+    text-transform: none;
 }
+
+.button_1{
+    height:38px;
+    background:#87CEFA;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+}
+
+header{
+    background:#51BDDC;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#87CEFA 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:19px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:#000000;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+#banner{
+    min-height:400px;
+    background:url('../image/obib_borger_pos__1.png') no-repeat 0 -400px;
+    text-align:center;
+    color:#ffffff;
+}
+
+
+#banner h2{
+    margin-top:50px;
+    font-size:55px;
+    margin-bottom:10px;
+
+       text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#banner h2{
+    margin-top:50px;
+    font-size:55px;
+    margin-bottom:10px;
+
+       text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#banner p{
+    font-size:40px;
+
+       text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:20px;
+}
+
+#boxes .box img{
+    width:90px;
+}
+
+aside#sidebar{
+    float:left;
+    width:75%;
+    margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+}
+
+article#main-col{
+    float:left;
+    width:75%;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#35424a;
+    background-color:#87CEFA;
+    text-align: center;
+}
+
+header .highlight, header .current a{
+    color:#000000;
+    font-weight:bold;
+}
+
+header{
+    padding-bottom:20px;
+  }
+
+#banner h1{
+    margin-top:40px;
+  }
+
+img{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
