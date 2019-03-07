@@ -17,6 +17,12 @@ body{
     margin:auto;
     overflow:hidden;
 }
+
+.container2{
+    width:45%;
+    margin:auto;
+    overflow:hidden;
+}
     
 ul{
     margin:10px;
@@ -24,13 +30,13 @@ ul{
 }
 
 .tekst{
-    padding:5px;
+    padding:25px;
     background:#ffffff;
     color:#000000;
     margin-top:10px;
     margin-bottom:10px;
     font-family: Helvetica;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 28px;
@@ -94,25 +100,11 @@ header a:hover{
 }
 
 #banner{
-    min-height:400px;
-    background:url('../image/obib_borger_pos__1.png') no-repeat 0 -400px;
+    min-height:200px;
     text-align:center;
     color:#ffffff;
 }
 
-
-#banner h2{
-    margin-top:50px;
-    font-size:55px;
-    margin-bottom:10px;
-
-       text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-}
 
 #banner h2{
     margin-top:50px;
@@ -136,21 +128,6 @@ header a:hover{
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
-}
-
-#boxes{
-    margin-top:20px;
-}
-
-#boxes .box{
-    float:left;
-    text-align: center;
-    width:30%;
-    padding:20px;
-}
-
-#boxes .box img{
-    width:90px;
 }
 
 aside#sidebar{
@@ -191,10 +168,15 @@ header{
   }
 
 img{
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media(max-width: 768px){
