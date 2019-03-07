@@ -1,0 +1,38 @@
+/* ===== main menu ======== */
+
+
+
+
+#body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    Margin:0;
+    Background-color:#f4f4f4;
+}
+.container{
+    width: 70%
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.tekst{
+    padding:15px;
+    background:#d3d3d3;
+    color:#000000
+    margin-top:10px;
+    margin-bottom:10px;
+        font-family:11xb;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height:28px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        text-align: left;
+        text-transform: none;
+}
